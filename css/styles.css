@@ -4549,7 +4549,6 @@ body.search-is-visible .s-header__search-inner {
 .s-footer__main {
     font-size   : calc(var(--text-size) * 0.8889);
     line-height : var(--vspace-0_875);
-    border-top  : 1px solid var(--color-border);
     padding-top : var(--vspace-1_25);
 }
 
