@@ -1,9 +1,0 @@
-.conteudos
-{
-    display: none;
-}
-
-.conteudos:target
-{
-    display: flex;
-}
