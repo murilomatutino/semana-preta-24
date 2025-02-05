@@ -77,6 +77,22 @@
 /* ------------------------------------------------------------------- 
  * ## fonts 
  * ------------------------------------------------------------------- */
+ .semana{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+ }
+
+ #text {
+    position: absolute;
+    font-size: 5em;
+    color: #333;
+ }
+
+ 
 @import url("https://fonts.googleapis.com/css2?family=Castoro:ital@0;1&family=Inter:wght@300;400;500;600;700&display=swap");
 
 :root {
