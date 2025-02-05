@@ -77,21 +77,62 @@
 /* ------------------------------------------------------------------- 
  * ## fonts 
  * ------------------------------------------------------------------- */
+
+ body{
+    background-color: #003329;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    /*overflow-x: hidden;*/
+ }
+
  .semana{
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    overflow: hidden; 
+    margin-bottom: -5px;
+
+
 
  }
 
  #text {
     position: absolute;
-    font-size: 5em;
-    color: #333;
+    font-size: 4em;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
  }
 
+ .semana img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    pointer-events: none;
+ }
+
+ .sec {
+    position: relative;
+    background: #003329;
+    padding: 80px;
+    margin-top: -5px;
+ }
+
+ .sec h2{
+    font-size: 2em;
+    color: #fff;
+    margin-bottom: 10px;
+
+ }
+
+.sec p {
+    font-size: 1em;
+    color: #fff;
+    font-weight: 300;
+ }
  
 @import url("https://fonts.googleapis.com/css2?family=Castoro:ital@0;1&family=Inter:wght@300;400;500;600;700&display=swap");
 
