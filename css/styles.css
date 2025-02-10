@@ -4564,6 +4564,25 @@ body.search-is-visible .s-header__search-inner {
     position         : relative;
 }
 
+.flexx{
+    display: flex;
+    z-index: 0;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+
+.footertxt{
+    position: relative;
+    z-index: 1;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+
+     
 .s-footer>.row {
     max-width : 1000px;
 }
