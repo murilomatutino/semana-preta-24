@@ -88,9 +88,20 @@
     /*overflow-x: hidden;*/
  }
 
- .semana{
-    position: relative;
+
+.link
+{
+    color: black;
+}
+
+.link:hover
+{
+    color: #F0B924;
+}
+
+.semana{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -98,7 +109,13 @@
     margin-bottom: -5px;
 
 
- }
+}
+
+.semana h1
+{
+    margin-bottom: 30px;
+}
+
 .pb-5
 {
     padding-top: 5rem;
@@ -109,8 +126,8 @@
  }
 
  #text {
-    position: absolute;
-    /*font-size: 4em;
+    /*position: absolute;
+    font-size: 4em;
     color: #351f10;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);*/
     font-size: 10rem;
@@ -5453,4 +5470,78 @@ body.search-is-visible .s-header__search-inner {
     .comment-respond form {
         padding-top : var(--vspace-1);
     }
+}
+
+/* --------------- Murilo ----------------- */
+
+@media screen and (max-width: 480px)
+{
+    #text
+    {
+        font-size: 3.8rem;
+    }
+
+    .semana
+    {
+        height: 300px;
+    }
+
+    .h-10 
+    {
+        height: 45%;
+    }
+
+    h2 
+    {
+        font-size: 2.5rem;
+    }
+
+    h3 
+    {
+        font-size: 2rem;
+    }
+
+    p{
+        font-size: 1.7rem;
+    }
+    .lead {
+        font-size: 1.8rem;
+    }
+
+    iframe {
+        height: 250px;
+    }
+}
+
+@media screen and (min-width: 480px)
+{
+    .h-lg-75
+    {
+        height: 75%;
+    }
+
+    footer .row div 
+    {
+        position: relative;
+        top: 39px;
+    }
+}
+
+
+@media screen and (min-width: 401px) and (max-width: 479px) {
+    footer .row div 
+    {
+        position: relative;
+        top: 39px;
+    }
+}
+
+.semana
+{
+    background-image: url(../images/banner.jpeg);
+}
+
+footer
+{
+    background-image: url(../images/banner.jpeg);
 }
